@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bitcoinnox_bg.qm</file>
+        <file alias="ca">locale/bitcoinnox_ca.qm</file>
+        <file alias="cs">locale/bitcoinnox_cs.qm</file>
+        <file alias="da">locale/bitcoinnox_da.qm</file>
+        <file alias="de">locale/bitcoinnox_de.qm</file>
+        <file alias="en">locale/bitcoinnox_en.qm</file>
+        <file alias="en_US">locale/bitcoinnox_en_US.qm</file>
+        <file alias="es">locale/bitcoinnox_es.qm</file>
+        <file alias="fi">locale/bitcoinnox_fi.qm</file>
+        <file alias="fr_FR">locale/bitcoinnox_fr_FR.qm</file>
+        <file alias="hr">locale/bitcoinnox_hr.qm</file>
+        <file alias="it">locale/bitcoinnox_it.qm</file>
+        <file alias="ja">locale/bitcoinnox_ja.qm</file>
+        <file alias="ko_KR">locale/bitcoinnox_ko_KR.qm</file>
+        <file alias="nl">locale/bitcoinnox_nl.qm</file>
+        <file alias="pl">locale/bitcoinnox_pl.qm</file>
+        <file alias="pt">locale/bitcoinnox_pt.qm</file>
+        <file alias="pt_BR">locale/bitcoinnox_pt_BR.qm</file>
+        <file alias="ro_RO">locale/bitcoinnox_ro_RO.qm</file>
+        <file alias="ru">locale/bitcoinnox_ru.qm</file>
+        <file alias="sk">locale/bitcoinnox_sk.qm</file>
+        <file alias="sv">locale/bitcoinnox_sv.qm</file>
+        <file alias="tr">locale/bitcoinnox_tr.qm</file>
+        <file alias="uk">locale/bitcoinnox_uk.qm</file>
+        <file alias="zh_CN">locale/bitcoinnox_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitcoinnox_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitcoinNox
+Comment=BitcoinNox P2P Cryptocurrency
+Comment[fr]=BitcoinNox, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitcoinNox, eşten eşe kriptografik sanal para birimi
+Exec=bitcoinnox-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoinnox128
+MimeType=x-scheme-handler/bitcoinnox;
+Categories=Office;Finance;

@@ -1,0 +1,26 @@
+[Unit]
+Description=BitcoinNox's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitcoinnox
+Group=bitcoinnox
+
+Type=forking
+PIDFile=/var/lib/bitcoinnoxd/bitcoinnoxd.pid
+
+ExecStart=/usr/bin/bitcoinnoxd -daemon -pid=/var/lib/bitcoinnoxd/bitcoinnoxd.pid \
+          -conf=/etc/bitcoinnox/bitcoinnox.conf -datadir=/var/lib/bitcoinnoxd
+
+ExecStop=-/usr/bin/bitcoinnox-cli -conf=/etc/bitcoinnox/bitcoinnox.conf \
+         -datadir=/var/lib/bitcoinnoxd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
